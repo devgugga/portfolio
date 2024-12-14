@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Meu Espaço na Rede 🚀
 
-Currently, two official plugins are available:
+Bem-vindo ao meu cantinho no universo digital! Este é o repositório do meu portfolio, feito com React e Typescript. 👨‍💻✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Explore Minhas Aventuras:
 
-## Expanding the ESLint configuration
+- **Viagens pelos Projetos Espaciais:** Uma jornada pelos trabalhos que moldaram minha caminhada na programação.
+- **Habilidades Interplanetárias:** Descubra as tecnologias e linguagens que eu uso. 🪐💻
+- **Estrelas Tecnológicas:** Dê uma olhada no código de algumas criações que me enchem de orgulho. 🌟🔍
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Contribuições são Bem-Vindas! 🤝
 
-- Configure the top-level `parserOptions` property like this:
+Se você tiver ideias, correções ou só quiser falar sobre código ou o vasto universo, sinta-se à vontade para deixar um comentário ou enviar sugestões. Juntos, podemos construir algo incrível! 🌎💻
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Já está no Ar! 🚀
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Meu portfolio já está online! Dê uma espiada [aqui](https://gustavogomes.dev.br) e comece a explorar meu espaço.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Divirta-se apreciando a vista nas estrelas da programação! 🚀🌌
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---

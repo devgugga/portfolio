@@ -1,0 +1,30 @@
+{
+  "short_name": "Portfolio",
+  "name": "Portfolio de Gustavo Gomes - Desenvolvedor Front-End",
+  "icons": [
+    {
+      "src": "g-logo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "g-logo-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "g-logo-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#01080E",
+  "background_color": "#011627",
+  "orientation": "portrait",
+  "description": "Portfolio de Gustavo Gomes - Desenvolvedor Front-End",
+  "categories": ["portfolio", "development", "web"]
+}
