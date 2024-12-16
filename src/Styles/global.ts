@@ -15,23 +15,18 @@ export const GlobalStyle = createGlobalStyle`
 
     font-family: 'Fira Code', monospace;
     color: ${({ theme }) => theme.colors.text.light};
+    
 
-    padding: 69px;
+    padding: 15px;
     
     #root {
       display: grid;
       
       background-color: ${({ theme }) => theme.colors.background.dark};
-      
-      height: calc(100vh - 138px);
-    }
-    
-    @media (max-width: 769px) {
-      padding: 15px;
-      
-      #root {
-        height: calc(100vh - 30px);
-      }
+
+      border-radius: 8px;
+
+      min-height: calc(100vh - 30px);
     }
   }
 `;

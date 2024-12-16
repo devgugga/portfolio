@@ -79,8 +79,6 @@ export const MobileNavLinksContainer = styled.div`
   display: grid;
   grid-template-areas: "links" "footer";
   grid-template-rows: 1fr auto;
-
-  height: 100%;
 `;
 
 export const MobileLinksContainer = styled.div`
