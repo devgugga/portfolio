@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <!-- Gradiente principal -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#087CFA"/>
+      <stop offset="35%" style="stop-color:#0D47A1"/>
+      <stop offset="65%" style="stop-color:#1565C0"/>
+      <stop offset="100%" style="stop-color:#0288D1"/>
+    </linearGradient>
+    
+    <!-- Gradiente para overlay -->
+    <linearGradient id="overlayGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#29B6F6" stop-opacity="0.4"/>
+      <stop offset="50%" style="stop-color:#0288D1" stop-opacity="0.2"/>
+      <stop offset="100%" style="stop-color:#01579B" stop-opacity="0.6"/>
+    </linearGradient>
+    
+    <!-- Gradiente para texto -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="50%" style="stop-color:#F5F5F5"/>
+      <stop offset="100%" style="stop-color:#E0E0E0"/>
+    </linearGradient>
+    
+    <!-- Gradiente para brilho -->
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#29B6F6" stop-opacity="0.6"/>
+      <stop offset="100%" style="stop-color:#29B6F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Fundo base -->
+  <rect x="10" y="10" width="180" height="180" rx="20" fill="url(#bgGradient)"/>
+  
+  <!-- Camada de brilho -->
+  <circle cx="50" cy="50" r="100" fill="url(#glowGradient)"/>
+  
+  <!-- Overlay geométrico -->
+  <path d="M10 100 L90 30 L170 100 L90 170 Z" fill="url(#overlayGradient)"/>
+  
+  <!-- Box interno com gradiente -->
+  <rect x="40" y="40" width="120" height="120" fill="black" opacity="0.85"/>
+  
+  <!-- Detalhes geométricos -->
+  <path d="M40 40 L160 40 L160 160 L40 160 Z" 
+        stroke="#29B6F6" 
+        stroke-width="1" 
+        fill="none" 
+        opacity="0.3"/>
+  
+  <!-- Texto GG -->
+  <text x="100" y="120" 
+        font-family="Arial, sans-serif" 
+        font-size="60" 
+        font-weight="bold" 
+        fill="url(#textGradient)" 
+        text-anchor="middle">GG</text>
+  
+  <!-- Linha decorativa inferior -->
+  <path d="M40 160 L160 160" stroke="#29B6F6" stroke-width="2"/>
+</svg>
