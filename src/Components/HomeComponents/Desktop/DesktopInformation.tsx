@@ -26,5 +26,3 @@ export const DesktopInformation = () => {
     </S.DesktopInformationContainer>
   );
 };
-
-// https://www.linkedin.com/in/alexandre-toulios/
