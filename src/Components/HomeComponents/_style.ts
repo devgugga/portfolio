@@ -117,3 +117,66 @@ export const MobileGithubLink = styled.div`
     }
   }
 `;
+
+// Desktop Styles
+
+export const DesktopInformationContainer = styled.section`
+  align-self: center;
+  justify-self: center;
+`;
+
+export const DesktopInformationContent = styled.div`
+  padding-bottom: 81px;
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  h1 {
+    font-size: 3.875rem;
+    font-weight: 400;
+  }
+
+  span {
+    color: ${({ theme }) => theme.colors.text.link};
+    font-size: 2rem;
+  }
+`;
+
+export const DesktopGithubLink = styled.div`
+  p {
+    font-weight: 500;
+  }
+
+  a {
+    color: ${({ theme }) => theme.colors.highlights.error};
+    text-decoration: underline;
+    text-decoration-color: ${({ theme }) => theme.colors.highlights.error};
+  }
+
+  .comments {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    padding-bottom: 9px;
+
+    span {
+      color: ${({ theme }) => theme.colors.text.default};
+      font-weight: 200;
+    }
+  }
+
+  .const {
+    color: ${({ theme }) => theme.colors.text.link};
+  }
+
+  .varName {
+    color: ${({ theme }) => theme.colors.highlights.success};
+  }
+
+  .quote {
+    color: ${({ theme }) => theme.colors.highlights.error};
+  }
+`;
