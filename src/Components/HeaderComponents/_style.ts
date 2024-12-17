@@ -94,7 +94,7 @@ export const MobileLinksContainer = styled.div`
   }
 `;
 
-// Nav Section
+// Desktop Nav Section
 
 export const DesktopNavContainer = styled.nav`
   padding: 0 22px;

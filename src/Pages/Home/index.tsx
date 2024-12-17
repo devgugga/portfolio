@@ -1,7 +1,9 @@
+import { ApplicationContext } from "../../Context/Contexts.ts";
+import { useContext } from "react";
+import { MobileInformation } from "../../Components/HomeComponents/Mobile/MobileInformation.tsx";
+
 export const Home = () => {
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  );
+  const { mobile } = useContext(ApplicationContext);
+
+  return <main>{mobile && <MobileInformation />}</main>;
 };
